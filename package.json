@@ -1,0 +1,35 @@
+{
+  "name": "buyusbcables-mcp",
+  "version": "2.0.0",
+  "description": "MCP server & AgentSkill for buyusbcables.com — 8,753 spec-verified Amazon hardware, cable, motor, bearing, power supply, connector, switch, camera, and wiring products across 27 parametric engineering categories.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://www.buyusbcables.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwiel/buyusbcables-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "amazon",
+    "amazon-api",
+    "parametric-search",
+    "hardware",
+    "electronics",
+    "robotics",
+    "usb-c",
+    "bom"
+  ],
+  "bin": {
+    "buyusbcables-mcp": "./bin/buyusbcables-mcp.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/buyusbcables-mcp.mjs",
+    "test": "node ./test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
